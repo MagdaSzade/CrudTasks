@@ -63,7 +63,7 @@ public class TrelloFacadeTest {
         trelloLists.add(new TrelloListDto("1", "my list", false));
 
         List<TrelloBoardDto> trelloBoards = new ArrayList<>();
-        trelloBoards.add(new TrelloBoardDto("my task", "1", trelloLists));
+        trelloBoards.add(new TrelloBoardDto("1", "my task", trelloLists));
 
         List<TrelloList> mappedTrelloLists = new ArrayList<>();
         mappedTrelloLists.add(new TrelloList("1", "my list", false));

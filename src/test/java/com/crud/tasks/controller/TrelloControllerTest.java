@@ -54,7 +54,7 @@ public class TrelloControllerTest {
         List<TrelloListDto> trelloLists = new ArrayList<>();
         trelloLists.add(new TrelloListDto("1", "test list", false));
         List<TrelloBoardDto> trelloBoards = new ArrayList<>();
-        trelloBoards.add(new TrelloBoardDto("test task", "1", trelloLists));
+        trelloBoards.add(new TrelloBoardDto("1", "test task", trelloLists));
         when(trelloFacade.fetchTrelloBoards()).thenReturn(trelloBoards);
         //When & Then
         mockMvc.perform(get("/v1/trello/getTrelloBoards").contentType(MediaType.APPLICATION_JSON))

@@ -78,9 +78,9 @@ public class TrelloMapperTest {
         trelloListsDto.add(trelloListDto1);
         trelloListsDto.add(trelloListDto2);
         trelloListsDto.add(trelloListDto3);
-        TrelloBoardDto trelloBoardDto1 = new TrelloBoardDto("test name1", "test id1", trelloListsDto);
-        TrelloBoardDto trelloBoardDto2 = new TrelloBoardDto("test name2", "test id2", trelloListsDto);
-        TrelloBoardDto trelloBoardDto3 = new TrelloBoardDto("test name3", "test id3", trelloListsDto);
+        TrelloBoardDto trelloBoardDto1 = new TrelloBoardDto("test id1","test name1",  trelloListsDto);
+        TrelloBoardDto trelloBoardDto2 = new TrelloBoardDto("test id2","test name2",  trelloListsDto);
+        TrelloBoardDto trelloBoardDto3 = new TrelloBoardDto("test id3", "test name3",  trelloListsDto);
         List<TrelloBoardDto> trelloBoardsDto = new ArrayList<>();
         trelloBoardsDto.add(trelloBoardDto1);
         trelloBoardsDto.add(trelloBoardDto2);
@@ -114,9 +114,9 @@ public class TrelloMapperTest {
         trelloLists.add(trelloList1);
         trelloLists.add(trelloList2);
         trelloLists.add(trelloList3);
-        TrelloBoard trelloBoard1 = new TrelloBoard("test name1", "test id1", trelloLists);
-        TrelloBoard trelloBoard2 = new TrelloBoard("test name2", "test id2", trelloLists);
-        TrelloBoard trelloBoard3 = new TrelloBoard("test name3", "test id3", trelloLists);
+        TrelloBoard trelloBoard1 = new TrelloBoard("test id1","test name1",  trelloLists);
+        TrelloBoard trelloBoard2 = new TrelloBoard("test id2","test name2",  trelloLists);
+        TrelloBoard trelloBoard3 = new TrelloBoard("test id3","test name3",  trelloLists);
         List<TrelloBoard> trelloBoards = new ArrayList<>();
         trelloBoards.add(trelloBoard1);
         trelloBoards.add(trelloBoard2);
