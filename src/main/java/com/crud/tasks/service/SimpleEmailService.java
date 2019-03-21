@@ -40,7 +40,7 @@ public class SimpleEmailService {
             messageHelper.setText(mailCreatorService.buildTrelloCardEmail(mail.getMessage()), true);
         };
     }
-
+    /*
     private SimpleMailMessage createMailMassage(final Mail mail) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(mail.getMailTo());
@@ -51,5 +51,6 @@ public class SimpleEmailService {
         mailMessage.setText(mail.getMessage());
        return mailMessage;
     }
+    */
 
-    }
+}
